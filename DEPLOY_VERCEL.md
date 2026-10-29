@@ -258,35 +258,37 @@ Once deployed, conduct this 10-step verification test on your live production UR
 ## Values to Paste into Dashboards
 
 ### 1. In Vercel Dashboard (`Settings > Environment Variables`)
+*(Currently configured on your live deployment)*
 ```env
 NEXT_PUBLIC_SUPABASE_URL=https://<your-project-id>.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=<your-supabase-anon-key>
-NEXT_PUBLIC_SITE_URL=https://<your-project-name>.vercel.app
+NEXT_PUBLIC_SITE_URL=https://pairly-sand.vercel.app
 ```
 
 ### 2. In Supabase Dashboard (`Authentication > URL Configuration`)
 - **Site URL**:
-  ```
-  https://<your-project-name>.vercel.app
+  ```text
+  https://pairly-sand.vercel.app
   ```
 - **Redirect URLs**:
-  ```
-  https://<your-project-name>.vercel.app/auth/callback
-  https://*-<your-vercel-team-or-username>.vercel.app/auth/callback
+  ```text
+  https://pairly-sand.vercel.app/auth/callback
+  https://*-ibrahimbhatti8790-9670.vercel.app/auth/callback
   http://localhost:3000/auth/callback
   ```
 
 ### 3. In Google Cloud Console (`Credentials > OAuth 2.0 Client IDs`)
 - **Authorized JavaScript origins**:
-  ```
-  https://<your-project-name>.vercel.app
+  ```text
+  https://pairly-sand.vercel.app
   http://localhost:3000
   ```
 - **Authorized redirect URIs**:
-  ```
+  ```text
   https://<your-project-id>.supabase.co/auth/v1/callback
   ```
 
 ### 4. In GitHub Repository (`Settings > Secrets and variables > Actions`)
+*(Configured automatically via CLI)*
 - **Secret Name**: `SITE_URL`
-- **Secret Value**: `https://<your-project-name>.vercel.app`
+- **Secret Value**: `https://pairly-sand.vercel.app`
