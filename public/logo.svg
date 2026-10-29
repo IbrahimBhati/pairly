@@ -1,0 +1,19 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pairly-grad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4B3F72" />
+      <stop offset="50%" stop-color="#635294" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#pairly-grad)" />
+  <path
+    d="M17 15C13.134 15 10 18.134 10 22C10 25.866 13.134 29 17 29H23C24.1046 29 25 29.8954 25 31C25 32.1046 24.1046 33 23 33H17C10.9249 33 6 28.0751 6 22C6 15.9249 10.9249 11 17 11H23C24.1046 11 25 11.8954 25 13C25 14.1046 24.1046 15 23 15H17Z"
+    fill="#FFFFFF"
+    fill-opacity="0.95"
+  />
+  <path
+    d="M31 33C34.866 33 38 29.866 38 26C38 22.134 34.866 19 31 19H25C23.8954 19 23 18.1046 23 17C23 15.8954 23.8954 15 25 15H31C37.0751 15 42 19.9249 42 26C42 32.0751 37.0751 37 31 37H25C23.8954 37 23 36.1046 23 35C23 33.8954 23.8954 33 25 33H31Z"
+    fill="#A7F3D0"
+  />
+</svg>

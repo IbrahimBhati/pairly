@@ -1,0 +1,18 @@
+# Tests and testing tools
+*.test.ts
+*.test.tsx
+vitest.config.ts
+
+# Local SQL seeds
+supabase/seed_dev_users.sql
+supabase/seed_demo.sql
+
+# Repository documentation not required at runtime
+DEMO_SCRIPT.md
+MATCHING.md
+SECURITY.md
+SETUP.md
+DEPLOY_VERCEL.md
+
+# GitHub Actions workflows
+.github/
